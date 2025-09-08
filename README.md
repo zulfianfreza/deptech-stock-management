@@ -13,7 +13,7 @@ Sistem manajemen stok dengan frontend Next.js dan backend NestJS menggunakan dat
 ### 1. Clone Repository
 
 ```bash
-https://github.com/zulfianfreza/deptech-stock-management
+git clone https://github.com/zulfianfreza/deptech-stock-management
 cd deptech-stock-management
 ```
 
