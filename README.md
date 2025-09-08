@@ -114,3 +114,12 @@ npm run start
 ```
 
 Frontend akan berjalan di: `http://localhost:3000`
+
+## 🔑 Default Admin Account
+
+Setelah menjalankan seeder, Anda dapat login menggunakan akun admin default:
+
+```
+Email: admin@example.com
+Password: admin123
+```
