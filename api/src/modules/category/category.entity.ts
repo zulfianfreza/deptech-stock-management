@@ -6,7 +6,7 @@ import {
   UpdateDateColumn,
   OneToMany,
 } from "typeorm";
-import { v4 as uuidv4 } from "uuid";
+
 import { Product } from "../product/product.entity";
 
 @Entity("category")
@@ -28,10 +28,4 @@ export class Category {
 
   @UpdateDateColumn({ name: "updated_at" })
   updatedAt: Date;
-
-  constructor() {
-    if (!this.id) {
-      this.id = uuidv4();
-    }
-  }
 }

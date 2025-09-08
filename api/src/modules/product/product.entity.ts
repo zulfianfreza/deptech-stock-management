@@ -8,7 +8,7 @@ import {
   JoinColumn,
   OneToMany,
 } from "typeorm";
-import { v4 as uuidv4 } from "uuid";
+
 import { Category } from "../category/category.entity";
 import { Transaction } from "../transaction/transaction.entity";
 
@@ -41,10 +41,4 @@ export class Product {
 
   @UpdateDateColumn({ name: "updated_at" })
   updatedAt: Date;
-
-  constructor() {
-    if (!this.id) {
-      this.id = uuidv4();
-    }
-  }
 }
